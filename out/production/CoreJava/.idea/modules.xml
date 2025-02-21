@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Methods/Class_and_Obj/Class_and_Obj.iml" filepath="$PROJECT_DIR$/Methods/Class_and_Obj/Class_and_Obj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CoreJava.iml" filepath="$PROJECT_DIR$/.idea/CoreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
+    </modules>
+  </component>
+</project>
