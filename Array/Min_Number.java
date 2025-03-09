@@ -10,6 +10,6 @@ public class Min_Number {
                 minNum=temp;
             }
         }
-        System.out.println("Minimun Number in givien array is :"+minNum);
+        System.out.println("Minimum Number in given array is :"+minNum);
     }
 }
