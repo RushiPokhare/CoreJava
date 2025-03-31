@@ -1,0 +1,31 @@
+We can create a checked or unchecked exception.
+
+TO create CHECKED Exception Simple:
+
+1--> Create Concrete class with Suffix as Exception[Optional--> Good Practise]
+2--> The Class Should Extend By Exception Class.
+3--> Provide Zero Para Con
+4--> Provide one Para Constructor which accept a string
+        --> Call the Super class Constructor by passing the String Input
+
+5--> public class Compile_InvalidAgeException extends Exception{
+         public Compile_InvalidAgeException(){}
+         public Compile_InvalidAgeException(String str){
+             super(str);
+         }
+     }
+
+TO create UNCHECKED Exception Simple:
+1--> Create Concrete class with Suffix as Exception[Optional--> Good Practise]
+2--> The Class Should Extend By Exception Class.
+3--> Provide Zero Para Con
+4--> Provide one Para Constructor which accept a string
+        --> Call the Super class Constructor by passing the String Input
+
+5--> public class Compile_InvalidAgeException extends RuntimeException{
+         public Compile_InvalidAgeException(){}
+         public Compile_InvalidAgeException(String str){
+             super(str);
+         }
+     }
+
