@@ -2,7 +2,7 @@ package multithreading;
 
 //Creating Thread Using Thread Class
 
-public class M1_CreateThread_ThreadClass2 {
+public class M2_CreateThread_ThreadClass2 {
     public static void main(String[] args) {
         class Worker extends Thread {
             @Override

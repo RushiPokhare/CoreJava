@@ -1,6 +1,6 @@
 package multithreading;
 
-public class M1_Exception_In_Thread {
+public class M3_Exception_In_Thread {
     public static void main(String[] args) {
         class Worker extends Thread {
             @Override
