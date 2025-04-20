@@ -8,7 +8,6 @@ public class M15_ThreadPriority {
 
         thread.start();
         thread.setPriority(10);  //for setting the thread priority
-
         int priority=thread.getPriority();
         System.out.println(priority); //for getting the thread priority
     }
