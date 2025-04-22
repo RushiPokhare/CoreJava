@@ -16,6 +16,8 @@ public class C2_ArrayList {
         list.add("Sai");
         list.add(null);
         list.add(10.10f);
-        System.out.println(list);
+        System.out.println(list); // Here Behind the sense list.toString() <-- Overridden method that print the actual contains
+//        System.out.println(list.toString());
+        System.out.println("length is ->"+list.size());
     }
 }
