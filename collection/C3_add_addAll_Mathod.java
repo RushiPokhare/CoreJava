@@ -3,7 +3,7 @@ package collection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class C3_Add_AddAll {
+public class C3_add_addAll_Mathod {
     public static void main(String[] args) {
         List list1=new ArrayList();
 

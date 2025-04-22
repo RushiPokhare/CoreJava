@@ -17,6 +17,7 @@ public class C1_Collection {
 
 //        Using Collection we can Use AL,LL,V,S,HS,LHS,TS,PQ
         List list=new ArrayList();
+//        ArrayList<Integer> arrayList=new ArrayList<>();  <-- Less flexible compare to above
         list.add(10);
         list.add(20);
         list.add(30);

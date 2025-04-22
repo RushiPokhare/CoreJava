@@ -3,7 +3,7 @@ package collection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class C6_Clear_Method {
+public class C6_clear_Method {
     public static void main(String[] args) {
         List<Integer> list=new ArrayList<>();
         list.add(10);
