@@ -3,6 +3,7 @@ package collection;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.function.Consumer;
 
 public class C12_Retriving_Element {
@@ -49,6 +50,13 @@ public class C12_Retriving_Element {
             Iterator<String> iterator = list.iterator(); //iterator methods returns tur or false
             while (iterator.hasNext()){
                 System.out.println(iterator.next());
+            }
+
+//      8. List Iterator
+            System.out.println("Reading the element using the list Iterator -->");
+            ListIterator<String> stringListIterator = list.listIterator();
+            while (stringListIterator.hasNext()){
+                System.out.println(stringListIterator.next());
             }
         }
     }
