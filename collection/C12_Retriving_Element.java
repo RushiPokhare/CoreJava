@@ -1,7 +1,9 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class C12_Retriving_Element {
     public static void main(String[] args) {
@@ -32,6 +34,22 @@ public class C12_Retriving_Element {
         System.out.println("Enhance for Loop --> ");
         for (String temp:list){
             System.out.println(temp);
+
+ //    5.Using JAVA 8 forEach method
+            System.out.println("Using JAVA 8 forEach method");
+            Consumer consumer=input-> System.out.println(input);
+            list.forEach(consumer);
+
+//      6.Using forEach---> Method Reference
+            System.out.println("using Method Refrance");
+            list.forEach((Consumer)System.out::println);
+
+//      7. Using Iterator
+            System.out.println("Using Iterator --> ");
+            Iterator<String> iterator = list.iterator(); //iterator methods returns tur or false
+            while (iterator.hasNext()){
+                System.out.println(iterator.next());
+            }
         }
     }
 }
